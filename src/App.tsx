@@ -1,8 +1,16 @@
 import React from 'react';
-
+import Header from './components/header';
+import Calculator from './components/calculator';
+import "./styles.css"
 function App() {
   return (
-    <h1>herro</h1>
+    <>
+      <Header/>
+      <div className='calculator-container'>
+        <Calculator/>
+
+      </div>
+    </>
   );
 }
 
